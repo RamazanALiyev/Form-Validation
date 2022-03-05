@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+
+body {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: 50px;
+  min-height: 100vh;
+  background-color: #373737;
+  overflow: hidden;
+}
+h3 {
+  position: relative;
+  font-size: 25px;
+  color: #f9f9f9;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+form {
+  position: relative;
+}
+form table tr {
+  line-height: 65px;
+}
+form table tr td{ position: relative;}
+form label {
+  color: #fff;
+}
+form table tr:nth-child(6) td label{
+  color: rgb(221, 199, 0);
+}
+form #name {
+  width: 300px;
+  background-color: #292929;
+  outline: none;
+  border: none;
+  padding: 15px 10px;
+  border-radius: 6px;
+  color: #fff;
+  font-style: 18px;
+}
+form #surname {
+  width: 300px;
+  background-color: #292929;
+  outline: none;
+  border: none;
+  padding: 15px 10px;
+  border-radius: 6px;
+  color: #fff;
+  font-style: 18px;
+}
+form #email {
+  width: 300px;
+  background-color: #292929;
+  outline: none;
+  border: none;
+  padding: 15px 10px;
+  border-radius: 6px;
+  color: #fff;
+  font-style: 18px;
+}
+form #password {
+  width: 300px;
+  background-color: #292929;
+  outline: none;
+  border: none;
+  padding: 15px 10px;
+  border-radius: 6px;
+  color: #fff;
+  font-style: 18px;
+}
+
+form button {
+  padding: 10px 20px;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  bottom: -55px;
+  left: 70%;
+}
+.focus{
+    border: 1px solid rgb(100, 100, 100);
+    box-shadow: 2px 2px 4px gray,
+                -2px -2px 4px gray;
+}
+
+.text{
+    position: absolute;
+    top: 3px;
+    right: 20px;
+    font-size: 16px;
+}
+.parag{
+  display: inline-block;
+  margin-left: 10px;
+  color: rgb(51, 207, 255);
+}
+label.parag.par{
+  color: yellow;
+}

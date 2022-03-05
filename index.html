@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+            integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="crossorigin="anonymous"
+            referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="style/style.css">
+    </head>
+    <body>
+        <div>
+            <h3>Form Validation</h3>
+            <form id="form" action="#">
+                <table>
+                    <tr>
+                        <td><label for="name">Name:</label></td>
+                        <td>
+                            <input type="text" name="" id="name"
+                                placeholder="Enter Your Name">
+                            <span class="text"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="surname">Surname:</label></td>
+                        <td>
+                            <input type="text" name="" id="surname"
+                                placeholder="Enter Your Surname">
+                            <span class="text"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">E-mail:</label></td>
+                        <td>
+                            <input type="text" name="" id="email"
+                                placeholder="Enter Your E-Mail">
+                            <span class="text"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="password">Password:</label></td>
+                        <td>
+                            <input type="password" name="" id="password"
+                                placeholder="Enter Your Password">
+                            <span class="text"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label id="cins">Cinsiyyet:</label></td>
+                        <td style="display: flex;">
+                            <div style="margin: 0 10px 0 5px;">
+                                <label for="kisi">Kisi:</label>
+                                <input type="radio" name="cins" id="kisi">
+                            </div>
+                            <div>
+                                <label for="qadin">Qadin:</label>
+                                <input type="radio" name="cins" id="qadin">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>Hobbileriniz:</label></td>
+                        <td style="display: flex;">
+                            <div style="margin: 0 10px 0 5px;">
+                                <input type="checkbox" name="cins" id="book">
+                                <label for="book">Kitab Oxumaq</label>
+                            </div>
+                            <div style="margin: 0 10px 0 0px;">
+                                <input type="checkbox" name="cins" id="sport">
+                                <label for="sport">Idman Etmek</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" name="cins" id="travel">
+                                <label for="travel">Seyahet</label>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+                <div>
+                    <input type="checkbox">
+                    <p class="parag">Bu bir <i><ins style="color: crimson">Form Validation</ins></i> praktikasidir.</p>
+                </div>
+                <div style="margin: 10px 0;">
+                    <input type="checkbox">
+                    <p class="parag">Melumatlari qeyd etdikde istifadeci rahatligi ucun lazim olan melumatlar gosterilir.</p>
+                </div>
+                <div>
+                    <input id="strict" type="checkbox">
+                    <label for="strict" class="parag par">Tesdiq edilmesi mecburi olan bir checkbox!!!</label>
+                </div>
+                <button id="button" type="submit">Gonder</button>
+            </form>
+        </div>
+
+
+        <script src="script/app.js"></script>
+    </body>
+</html>
